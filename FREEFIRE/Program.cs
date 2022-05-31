@@ -22,6 +22,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=FreeFire}/{action=Index}/{id?}");
+    pattern: "{controller=freefire}/{action=Index}/{id?}");
 
 app.Run();
